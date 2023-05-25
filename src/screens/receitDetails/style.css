@@ -1,0 +1,46 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+    .container{
+        padding: 30px;
+        background-color: whitesmoke;
+        width: 600px;
+    }
+
+   .form_element {
+        display: flex;
+        align-items: center;
+        margin-block: 10px;
+
+    }
+    .form_element select{
+        height: 35px;
+        width: 250px;
+        background-color: whitesmoke;
+        border-radius: 0.25rem;
+        border: 2px solid lightgray;
+
+    }
+    .submit_bar{
+        margin-top: 20px;
+        display: flex;
+        margin-left: 38%;
+    }
+
+    .dateInput{
+    
+    display: flex;
+    height: 30px;
+    border-radius: 0.25rem;
+    width: 200px;
+    background-color: whitesmoke;
+    border: none;
+
+
+    }
+
+    

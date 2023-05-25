@@ -1,0 +1,1 @@
+export {default as commandIcon} from './command.png'

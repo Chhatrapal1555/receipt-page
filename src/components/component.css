@@ -1,0 +1,47 @@
+.input1{
+    display: flex;
+    height: 30px;
+    border-radius: 0.25rem;
+    width: 400px;
+    background-color: whitesmoke;
+    border: none;
+
+}
+.required:after {
+    content:" *";
+    color: red;
+  }
+  .button1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-inline: 30px;
+    border: 1px solid #457B3B;
+    border-radius: 0.25rem;
+    padding-block: 10px;
+    background-color: #457B3B;
+    color: white;
+    margin-left: 30px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px grey;
+    
+    
+  }
+  .button2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-inline: 30px;
+    border: 1px solid palevioletred;
+    border-radius: 0.25rem;
+    padding-block: 10px;
+    color: palevioletred;
+    margin-right: 30px;
+    cursor: pointer;
+  }
+
+  .error-message {
+    color: rgb(255, 0, 0);
+    font-size: 12px;
+    margin : 15px 0px 0px 10px
+}
